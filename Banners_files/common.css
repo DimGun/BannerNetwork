@@ -1,0 +1,941 @@
+
+/* line 1 : C:\Program Files (x86)\Prepros\node_modules\stylus\lib\functions\index.styl */
+
+/* line 13 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\index.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\border.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\color-image.styl */
+
+/* line 6 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\flex.styl */
+
+/* line 154 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\gradients.styl */
+
+/* line 154 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\config.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\iconic.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\image.styl */
+
+/* line 15 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\overflow.styl */
+
+/* line 3 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\positions.styl */
+
+/* line 3 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+
+/* line 5 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\text\index.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\text\aliases.styl */
+
+/* line 2 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\text\ellipsis.styl */
+
+/* line 11 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\text\hide-text.styl */
+
+/* line 9 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\text\replace-text.styl */
+
+/* line 557 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\vendor.styl */
+
+/* line 557 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\config.styl */
+
+/* line 1 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\consts.styl */
+
+/* line 3 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+@import "proximanova/stylesheet.css";
+
+/* line 4 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 7 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 9 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 11 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 13 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 15 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\reset.styl */
+a img {
+  border: none;
+}
+
+/* line 7 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+html {
+  min-height: 100%;
+}
+
+/* line 10 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body {
+  font: 13px Arial, sans-serif;
+  color: #666;
+}
+
+/* line 14 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-background {
+  background-position: bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url("../images/page-background.png");
+}
+
+/* line 20 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.top {
+  top: 0;
+  width: 100%;
+}
+
+/* line 24 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.bottom {
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 28 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.top,
+.bottom {
+  z-index: 4;
+}
+
+/* line 31 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-sticky .top,
+body.is-sticky .bottom {
+  position: absolute;
+}
+
+/* line 34 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.header {
+  padding: 10px 20px;
+  background: #000;
+  zoom: 1;
+}
+
+/* line 23 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.header:before,
+.header:after {
+  content: "";
+  display: table;
+}
+
+/* line 27 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.header:after {
+  clear: both;
+}
+
+/* line 40 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.header-logo {
+  float: left;
+  display: block;
+  background: url("../images/header-logo.png") no-repeat center center;
+  width: 193px;
+  height: 32px;
+}
+
+/* line 47 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.header-toggle {
+  float: right;
+  background: url("../images/header-toggle.png") no-repeat center center;
+  width: 26px;
+  height: 32px;
+  margin-left: 23px;
+  display: none;
+}
+@media (max-width: 1024px) {
+
+/* line 56 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  a.header-toggle {
+    display: block;
+  }
+}
+
+/* line 59 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.header-languages {
+  float: right;
+  font: 14px proximanova, sans-serif;
+  font-weight: bold;
+}
+
+/* line 64 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.header-languages > a {
+  display: inline-block;
+  line-height: 32px;
+  width: 32px;
+  color: #fff;
+  opacity: 0.45;
+  filter: alpha(opacity=45);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45)";
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 73 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.header-languages > a.is-active {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+@media (max-width: 400px) {
+
+/* line 76 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .header-languages > a.is-active {
+    display: none;
+  }
+}
+@media (max-width: 340px) {
+
+/* line 79 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .header-languages {
+    display: none;
+  }
+}
+
+/* line 82 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation,
+ul.subnavigation {
+  font-family: proximanova;
+  color: #fff;
+  text-transform: uppercase;
+  zoom: 1;
+}
+
+/* line 23 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+ul.navigation:before,
+ul.subnavigation:before,
+ul.navigation:after,
+ul.subnavigation:after {
+  content: "";
+  display: table;
+}
+
+/* line 27 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+ul.navigation:after,
+ul.subnavigation:after {
+  clear: both;
+}
+
+/* line 88 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation > li,
+ul.subnavigation > li {
+  float: left;
+}
+
+/* line 91 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation > li > a,
+ul.subnavigation > li > a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+@media (max-width: 1024px) {
+
+/* line 96 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  ul.navigation,
+  ul.subnavigation {
+    display: none;
+  }
+}
+
+/* line 101 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation {
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  left: 270px;
+  padding: 9px 0;
+  font-weight: bold;
+}
+@media (max-width: 1024px) {
+
+/* line 107 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  ul.navigation {
+    margin-top: 1px;
+    background: #000;
+    position: static;
+  }
+}
+
+/* line 112 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+
+/* line 113 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation > li > a {
+  padding: 9px;
+}
+
+/* line 116 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.navigation > li.is-active > a,
+ul.navigation > li > a:hover {
+  color: #00bbda;
+}
+
+/* line 119 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.subnavigation {
+  font-size: 12px;
+  background: #4c4c4c;
+}
+
+/* line 123 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+
+/* line 124 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.subnavigation > li > a {
+  line-height: 43px;
+  padding: 0 12px;
+}
+
+/* line 128 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.subnavigation > li:first-child {
+  margin-left: 277px;
+}
+@media (max-width: 1024px) {
+
+/* line 131 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  ul.subnavigation > li:first-child {
+    margin-left: inherit;
+  }
+}
+
+/* line 134 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.subnavigation > li.is-active > a,
+ul.subnavigation > li > a:hover {
+  background: #00bbda;
+}
+
+/* line 137 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+ul.subnavigation > li.is-active > a {
+  font-weight: bold;
+}
+
+/* line 140 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer {
+  background: #fff;
+  font: 11px "PT Sans Caption", sans-serif;
+  color: #8a8a8a;
+  padding: 17px 0;
+  padding-left: 20px;
+  padding-right: 144px;
+  zoom: 1;
+}
+
+/* line 23 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.footer:before,
+.footer:after {
+  content: "";
+  display: table;
+}
+
+/* line 27 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.footer:after {
+  clear: both;
+}
+
+/* line 152 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-background .footer {
+  background: inherit;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+/* line 158 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer a {
+  color: inherit;
+}
+
+/* line 161 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer-copyright,
+.footer-developer,
+.footer-terms {
+  float: left;
+  margin: 2px 0;
+  margin-right: 27px;
+}
+
+/* line 166 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer-social-links {
+  position: absolute;
+  right: 20px;
+  ((null)): 0;
+  margin-top: -5px;
+}
+
+/* line 170 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-background .footer-social-links {
+  position: inherit;
+  float: right;
+}
+
+/* line 174 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer-social-links > a {
+  display: inline-block;
+  vertical-align: middle;
+  size: 27px;
+  margin-left: 4px;
+  background: no-repeat center center;
+}
+
+/* line 181 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.footer-social-links > a:first-child {
+  margin-left: inherit;
+}
+
+/* line 184 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-background .footer-social-links > a {
+  background-color: #fff;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 190 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.footer-social-links-vkontakte {
+  background-image: url("../images/social-links-vkontakte.png");
+}
+
+/* line 190 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.footer-social-links-odnoklassniki {
+  background-image: url("../images/social-links-odnoklassniki.png");
+}
+
+/* line 190 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.footer-social-links-facebook {
+  background-image: url("../images/social-links-facebook.png");
+}
+
+/* line 190 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+a.footer-social-links-twitter {
+  background-image: url("../images/social-links-twitter.png");
+}
+@media (max-width: 450px) {
+
+/* line 193 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .footer {
+    padding-right: 20px;
+  }
+
+/* line 196 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .footer-copyright,
+  .footer-developer {
+    right: inherit;
+  }
+
+/* line 199 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .footer-social-links {
+    right: inherit;
+    position: relative;
+  }
+}
+
+/* line 203 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content {
+  font-size: 16px;
+  line-height: 1.7em;
+}
+
+/* line 207 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content p,
+.content h3 {
+  margin-bottom: 1.2em;
+}
+
+/* line 210 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content h1,
+.content h3,
+.content p {
+  padding: 0 5%;
+  text-align: center;
+}
+
+/* line 213 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content.is-left p {
+  text-align: left;
+}
+
+/* line 216 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content h1 {
+  font: 48px proximanova, sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* line 224 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content h3 {
+  font-weight: bold;
+}
+
+/* line 227 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content iframe {
+  display: block;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+
+/* line 232 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content b,
+.content strong {
+  font-weight: bold;
+  color: #000;
+}
+
+/* line 236 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content a {
+  color: #000;
+}
+
+/* line 238 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content a:hover {
+  text-decoration: none;
+}
+
+/* line 241 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-flexible .content {
+  position: absolute;
+  top: 53px;
+  bottom: 53px;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 247 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.has-subnavigation .content {
+  top: 96px;
+}
+
+/* line 250 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+body.is-background .content {
+  background: #eee;
+  max-width: 940px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 55px 0;
+}
+
+/* line 258 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-youtube {
+  width: 80%;
+  padding-bottom: 50%;
+  height: 0;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 1.2em;
+}
+
+/* line 266 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-youtube > iframe {
+  size: 100%;
+  position: absolute;
+}
+
+/* line 270 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-faq {
+  text-align: center;
+}
+
+/* line 272 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-faq > a {
+  color: #00bbda;
+  text-decoration: none;
+}
+
+/* line 275 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-faq > a:hover {
+  text-decoration: underline;
+}
+
+/* line 278 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-bottom {
+  background: #fff;
+  margin-bottom: -55px;
+  padding-bottom: 60px;
+  padding-top: 350px;
+}
+
+/* line 284 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.content-logo {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+/* line 290 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form {
+  margin: 40px 0;
+  background: #d6d6d6;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 5%;
+  margin-bottom: -300px;
+  margin-top: 35px;
+  position: relative;
+  z-index: 1;
+  padding: 5%;
+}
+
+/* line 302 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form h2 {
+  font: 22px proximanova, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* line 308 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-row {
+  margin-top: 5%;
+  zoom: 1;
+}
+
+/* line 23 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.form-row:before,
+.form-row:after {
+  content: "";
+  display: table;
+}
+
+/* line 27 : C:\Program Files (x86)\Prepros\node_modules\nib\lib\nib\clearfix.styl */
+.form-row:after {
+  clear: both;
+}
+
+/* line 312 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-row:first-child {
+  margin-top: 0;
+}
+
+/* line 318 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input {
+  background: #fff;
+  border: 1px solid #c0c0c0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: proximanova, sans-serif;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+  padding: 0 18px;
+  height: 54px;
+  margin: 0;
+}
+
+/* line 332 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.has-error {
+  border-color: #f00;
+}
+
+/* line 336 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input::-webkit-input-placeholder {
+  color: #666 !important;
+}
+
+/* line 339 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.has-error::-webkit-input-placeholder {
+  color: #f00 !important;
+}
+
+/* line 336 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input:-moz-placeholder {
+  color: #666 !important;
+}
+
+/* line 339 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.has-error:-moz-placeholder {
+  color: #f00 !important;
+}
+
+/* line 336 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input::-moz-placeholder {
+  color: #666 !important;
+}
+
+/* line 339 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.has-error::-moz-placeholder {
+  color: #f00 !important;
+}
+
+/* line 336 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input:-ms-input-placeholder {
+  color: #666 !important;
+}
+
+/* line 339 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.has-error:-ms-input-placeholder {
+  color: #f00 !important;
+}
+
+/* line 342 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.is-half {
+  float: left;
+  width: 47.5%;
+  margin-left: 5%;
+}
+
+/* line 347 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input.is-half.is-first,
+.form-input.is-half:first-child {
+  margin-left: 0;
+}
+
+/* line 350 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+textarea.form-input {
+  width: 100%;
+  height: 196px;
+  padding: 18px;
+}
+
+/* line 355 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+button.form-input {
+  background: #000;
+  color: #fff;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 3px solid #535353;
+  line-height: 54px;
+}
+
+/* line 364 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+button.form-input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 368 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+button.form-input:active,
+button.form-input.is-active {
+  border-bottom-width: 1px;
+  padding-top: 1px;
+}
+
+/* line 372 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+select.form-input {
+  width: 100%;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 17px;
+  cursor: pointer;
+}
+@media all and (-webkit-min-device-pixel-ratio: 0) {
+
+/* line 378 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  select.form-input {
+    background-image: url("../images/form-input-select.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+/* line 383 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input-file {
+  padding: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 388 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input-file > input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 18px 0;
+  margin: 0;
+  display: block;
+  height: 54px;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: -600% \0;
+  zoom: 7 \0;
+}
+
+/* line 402 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input-file > button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 135px;
+  background-color: #00bbda;
+  height: 48px;
+  line-height: 48px;
+  border-bottom-color: #2980b9;
+}
+
+/* line 411 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-input-file-name {
+  position: absolute;
+  left: 0;
+  right: 135px;
+  padding: 18px;
+  line-height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-transform: none;
+}
+
+/* line 419 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-row.is-right {
+  position: relative;
+  height: 54px;
+}
+
+/* line 423 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-row.is-right > .form-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 145px;
+}
+
+/* line 428 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-row.is-right > .form-input:first-child {
+  position: absolute;
+  left: 0;
+  right: 180px;
+  top: inherit;
+  width: inherit;
+}
+@media (max-width: 500px) {
+
+/* line 434 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .form-row.is-right {
+    height: 126px;
+  }
+
+/* line 437 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .form-row.is-right > .form-input {
+    position: inherit;
+    margin: 0 auto;
+    display: block;
+  }
+
+/* line 442 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+  .form-row.is-right > .form-input:first-child {
+    position: inherit;
+    margin-bottom: 18px;
+  }
+}
+
+/* line 446 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+
+/* line 447 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+
+/* line 448 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-modal .modal-body {
+  font-size: 16px;
+  padding: 2em;
+}
+
+/* line 452 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.form-modal .modal-body .close {
+  margin-top: -0.5em;
+  margin-right: -0.5em;
+}
+
+/* line 456 : C:\Users\danil\Documents\Projects\media-storm\playstorm\prototype\styles\common.styl */
+.modal.fade {
+  top: -300px;
+}
