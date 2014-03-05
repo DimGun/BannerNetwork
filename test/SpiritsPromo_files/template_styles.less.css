@@ -1,0 +1,134 @@
+@charset "utf-8";
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ti {
+  font-size: 1px;
+  line-height: 1px;
+  text-indent: -9999px;
+}
+.cb {
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  clear: both;
+}
+.list_null {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #eeeeee url(../images/bg-main.jpg) repeat 0 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+img {
+  border: none;
+}
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+a {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.header_outer {
+  background-color: #494949;
+  padding: 8px 0 7px;
+  margin-bottom: 44px;
+}
+.header_outer .header_inner {
+  text-align: center;
+}
+.l_catalog {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l_catalog li {
+  float: left;
+  width: 580px;
+  margin: 0 15px 45px;
+  background-color: #ffffff;
+  font-family: 'Gotham Pro';
+}
+.l_catalog li a {
+  color: #414141;
+  text-decoration: none;
+  height: 240px;
+  overflow: hidden;
+}
+.l_catalog li a,
+.l_catalog li a span {
+  display: block;
+}
+.l_catalog li a span.img {
+  float: left;
+  width: 330px;
+  height: 240px;
+  overflow: hidden;
+}
+.l_catalog li a span.data {
+  margin-left: 330px;
+  padding: 25px;
+}
+.l_catalog li a span.data .title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.l_catalog li a span.data .text {
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (max-width: 640px) {
+  .b-pos {
+    width: 580px;
+    margin: 0 auto;
+  }
+  .header_outer .header_inner {
+    width: 580px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .l_catalog {
+    width: 580px;
+    margin: 0 auto;
+  }
+  .l_catalog li {
+    margin: 0 0 44px;
+  }
+}
